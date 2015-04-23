@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.coolwall.app.UserTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.45 sec <<< FAILURE!
+testLogin(com.coolwall.app.UserTest)  Time elapsed: 0.027 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertNotNull(Assert.java:220)
+	at junit.framework.Assert.assertNotNull(Assert.java:213)
+	at com.coolwall.app.UserTest.testLogin(UserTest.java:83)
+
